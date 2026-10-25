@@ -1,51 +1,39 @@
-<!--
-  09-html — your work goes in this file.
-
-  The lesson is example.html:   npm run open 09
-  See your own page with:       npm run open 09 exercise
-  Check your work with:         npm test 09
-
-  Build the page described in README.md. The skeleton below is started for
-  you; every TODO marks something missing. Delete each TODO comment once you
-  have done what it says.
--->
-
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>My Campus Store</title>
+<link rel="stylesheet" href="styles.css" />
+</head>
 
-    <!-- TODO: give the page the title:  My Campus Store -->
-    <title></title>
+<body>
+<header>
+  <h1>My Campus Store</h1>
+</header>
 
-    <!-- TODO: link the stylesheet. The file is styles.css, next to this one. -->
-  </head>
+<main>
+  <h2>Items</h2>
 
-  <body>
-    <!-- TODO: wrap this heading in a <header> element. -->
-    <h1>My Campus Store</h1>
+  <ul>
+    <li>Notebook</li>
+    <li>Backpack</li>
+    <li>Pen</li>
+  </ul>
 
-    <!-- TODO: everything from here to the footer belongs inside a <main>. -->
+  <p>A pen costs <span class="price">15 EGP</span>.</p>
 
-    <!-- TODO: add an <h2> that says:  Items -->
+  <a href="https://www.giu-uni.de">GIU</a>
 
-    <!-- TODO: add a <ul> with exactly three <li> items, one per product.
-         The text of each does not matter — pick any three. -->
+  <img src="notebook.jpg" alt="A blue notebook on a desk" />
 
-    <!-- TODO: add a paragraph containing a <span class="price"> with a price
-         in it, for example:  A pen costs <span class="price">15 EGP</span>. -->
+  <p id="script-check">The script has not run.</p>
+</main>
 
-    <!-- TODO: add a link to https://www.giu-uni.de with the text:  GIU -->
+<footer>
+  <p>BINF 503 - Electronic Business Development</p>
+</footer>
 
-    <!-- TODO: add an <img>. It needs a src (any filename) and an alt
-         describing the picture. -->
-
-    <p id="script-check">The script has not run.</p>
-
-    <!-- TODO: add a <footer> with a paragraph inside it. Any text. -->
-
-    <!-- TODO: link the script. The file is app.js, next to this one, and the
-         tag belongs at the very end of the body. -->
-  </body>
+<script src="app.js"></script>
+</body>
 </html>
