@@ -1,0 +1,10 @@
+/* Checkpoint B — your styling. Build it to checkpoint-b/spec.md. */
+body {
+  font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+  background-color: #fdfdfb;
+}
+
+.row {
+  padding: 12px;
+  color: #1f2933;
+}
